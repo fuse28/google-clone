@@ -1,0 +1,34 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+.home-headerLeft {
+  display: flex;
+  align-items: center;
+}
+.home-headerLeft > p {
+  margin-right: 10px;
+}
+.home-headerRight {
+  display: flex;
+  align-items: center;
+  min-width: 600px;
+  justify-content: space-evenly;
+}
+.google-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.home-body > img {
+  margin-left: 130px;
+}
+.home-inputContainer {
+  margin-top: 30px;
+}

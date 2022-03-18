@@ -1,0 +1,64 @@
+.searchPage-header {
+  display: flex;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+}
+.searchPage-image {
+  object-fit: contain;
+  height: 75px;
+}
+.searchPage-headerBody {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.searchPage-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchPage-options a {
+  text-decoration: none;
+  color: gray;
+}
+.single-option {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  color: gray;
+}
+.searchPage-optionLeft {
+  display: flex;
+}
+.searchPage-optionRight {
+  display: flex;
+}
+
+.searchPage-results {
+  padding-left: 20px;
+}
+.searchPage-resultCount {
+  font-size: 1rem;
+  color: gray;
+}
+.searchPage-result {
+  margin: 40px 0;
+}
+.searchPage-result > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.searchPage-result > a > p {
+  margin-left: 10px;
+}
+.searchPage-resultImage {
+  height: 40px;
+  object-fit: contain;
+}
